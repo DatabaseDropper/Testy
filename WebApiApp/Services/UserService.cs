@@ -14,7 +14,8 @@ namespace TestAutoryzacji.Services
     {
         private List<User> _users = new List<User>
         {
-            new User { Id = 1, FirstName = "Test", LastName = "User", Username = "test", Password = "test" }
+            new User { Id = 1, FirstName = "Test", LastName = "User", Username = "test", Password = "test" },
+            new User { Id = 2, FirstName = "Test2", LastName = "User2", Username = "test2", Password = "test2" }
         };
         private string _secret;
 
